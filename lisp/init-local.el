@@ -58,18 +58,7 @@
 ;; configure javascript-tide checker to run after your default javascript checker
 ;; (flycheck-add-next-checker 'javascript-eslint 'javascript-tide 'append)
 
-
-
-;; lsp
-;; (require-package 'lsp-mode)
-;; (maybe-require-package 'lsp-ui)
-;; (maybe-require-package 'flycheck)
-;; (maybe-require-package 'company)
-;; (maybe-require-package 'lsp-treemacs)
-;; (maybe-require-package 'lsp-ivy)
-;; (maybe-require-package 'dap-mode)
-;; (maybe-require-package 'lsp-java)
-;; (add-hook 'prog-mode-hook #'lsp-deferred)
+;; company
 (setq company-minimum-prefix-length 1
       company-idle-delay 0.0) ;; default is 0.2
 
